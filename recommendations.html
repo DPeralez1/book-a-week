@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recommendations</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <ul>
@@ -12,5 +13,32 @@
       <li><a href="top-five.html">Top Five</a></li>
       <li><a href="honerable.html">Honerable Mentions</a></li>
     </ul>
+    <form action="" method="post">
+      <fieldset class="container">
+        <legend>Your Recommendations</legend>
+        <div>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firsName" />
+        </div>
+        <div>
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" />
+        </div>
+        <div>
+          <label for="bookTitle">Book Title:</label>
+          <input type="text" id="bookTitle" />
+        </div>
+        <div>
+          <textarea placeholder="Description..."></textarea>
+        </div>
+        <div class="checkbox-options">
+          <label for="sign-up" required>Sign up for newsletter</label>
+          <input type="checkbox" id="sign-up" />
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
