@@ -13,16 +13,16 @@
       <a href="top-five.html">Top Five</a>
       <a href="honerable.html">Honerable Mentions</a>
     </div>
-    <form action="" method="post">
+    <form action="/form-handling-url" method="post">
       <fieldset class="container">
         <legend>Your Recommendations</legend>
         <div>
-          <label for="firstName">First Name:</label>
-          <input type="text" id="firsName" />
+          <label for="yourName">Your Name:</label>
+          <input type="text" id="yourName" />
         </div>
         <div>
-          <label for="lastName">Last Name:</label>
-          <input type="text" id="lastName" />
+          <label for="authorName">Author Name:</label>
+          <input type="text" id="authorName" />
         </div>
         <div>
           <label for="bookTitle">Book Title:</label>
@@ -32,7 +32,9 @@
           <textarea placeholder="Description..."></textarea>
         </div>
         <div class="checkbox-options">
-          <label for="sign-up" required>Sign up for newsletter</label>
+          <label for="sign-up" required
+            >Would you like to see more recommendations on the site?</label
+          >
           <input type="checkbox" id="sign-up" />
         </div>
         <div>
